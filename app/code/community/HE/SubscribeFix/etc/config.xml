@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HE_SubscribeFix>
+            <version>0.1.0</version>
+        </HE_SubscribeFix>
+    </modules>
+    <global>
+        <models>
+            <subscribefix>
+                <class>HE_SubscribeFix_Model</class>
+            </subscribefix>
+        </models>
+
+        <events>
+            <newsletter_subscriber_save_before>
+                <observers>
+                    <subscribefix_observer_subscriber>
+                        <type>singleton</type>
+                        <class>HE_SubscribeFix_Model_Observer</class>
+                        <method>setUpdateDate</method>
+                     </subscribefix_observer_subscriber>
+                </observers>
+            </newsletter_subscriber_save_before>
+        </events>
+
+    </global>
+</config>
