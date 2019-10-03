@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/SubscriptionFix",
+    "name": "openmage-module-fostering\/subscriptionfix",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Magento no longer updates the date associated with newsletter subscribe\/unsubscribe actions.  This simple observer inserts the current date and time into the change_status_at field",
     "authors": [

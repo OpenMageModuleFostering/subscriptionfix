@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Magento no longer updates the date associated with newsletter subscribe/unsubscribe actions.  This simple observer inserts the current date and time into the change_status_at field
