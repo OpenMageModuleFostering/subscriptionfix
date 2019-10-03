@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/SubscriptionFix",
+    "name": "OpenMageModuleFostering\/SubscriptionFix",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "Magento no longer updates the date associated with newsletter subscribe/unsubscribe actions.  This simple observer inserts the current date and time into the change_status_at field",
+    "description": "Magento no longer updates the date associated with newsletter subscribe\/unsubscribe actions.  This simple observer inserts the current date and time into the change_status_at field",
     "authors": [
-    {
-        "name": "Greg Croasdill",
-        "email": "gregc@human-element.com"
-    }
-],
+        {
+            "name": "Greg Croasdill",
+            "email": "gregc@human-element.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
